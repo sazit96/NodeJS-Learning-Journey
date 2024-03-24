@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Triangle Page</title>
+  </head>
+  <body style="text-align: center">
+    <header>
+      <nav style="margin-top: 30vh">
+        <ul style="list-style-type: none">
+          <li style="margin-bottom: 10px">
+            <a href="/circle">Circle Calculator</a>
+          </li>
+          <li><a href="/triangle">Triangle Calculator</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Triangle Calculator</h1>
+      <form action="/triangle" method="post">
+        <div style="margin-bottom: 20px">
+          <label for="base">Base: </label>
+          <input type="text" id="base" name="base" />
+        </div>
+        <div style="margin-bottom: 20px">
+          <label for="height">Height: </label>
+          <input type="text" id="height" name="height" />
+        </div>
+        <button type="submit">Calculate</button>
+      </form>
+    </main>
+  </body>
+</html>
