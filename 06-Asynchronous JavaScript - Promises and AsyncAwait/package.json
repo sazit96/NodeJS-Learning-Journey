@@ -1,0 +1,19 @@
+{
+  "name": "06-asynchronous-javascript---promises-and-asyncawait",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "superagent": "^8.1.2"
+  }
+}
