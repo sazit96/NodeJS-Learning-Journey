@@ -1,13 +1,10 @@
 const express = require('express');
 const app = express();
-const db = require('./db'); // Import the database connection
+const db = require('./db');
 const student = require('./student');
 const port = 3000;
 
-app.get('/', (req, res) => {
-  res.send('Alhumdulillah');
-});
-
+app.use('/api', student);
 app.listen(port, () => {
-  console.log(`server is runing http://localhost:${port}`);
+  console.log(`Server listening at http://localhost:${port}`);
 });
